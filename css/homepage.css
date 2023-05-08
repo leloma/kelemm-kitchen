@@ -1,0 +1,201 @@
+body{
+    background-color: #1d1c1c;
+
+}
+a{
+    color: aquamarine;
+}
+
+/*CSS for the 4 big sections*/
+.section1{
+    padding: 2 3%;
+    margin: 1%;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+.section2{
+    padding: 2%;
+    margin: 1%;
+}
+
+.section3{
+    padding: 2%;
+    margin: 1%;
+    line-height: 10%;
+}
+
+.section4{
+    padding: 2%;
+    margin: 1%;
+    color: darkgray;
+    
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+
+h3{
+    padding: 5px;
+    margin:0;
+
+}
+
+/*TITLE CSS*/
+.resto-name{
+    color: #af7b0a;
+    font-size: 35px;
+    padding-left: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    float: left;
+}
+
+h1{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/* Login and register links css */
+
+.login-register{
+    line-height: 0px;
+}
+.login-register ul{
+    list-style: none;
+}
+
+.login-register ul li{
+    display: inline;
+}
+
+.login-register a{
+    padding: 10px 30px;
+    font-size: 30px;
+    color: rgb(209, 209, 218);
+    text-decoration: none;
+    /* line-height: 10%; */
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* Categories CSS */
+.categories{
+    padding-top: 0%;
+    padding: 0 0 0 0;
+    color: #f5f6fa;
+    font-size: 30px;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+.boxes{
+    width: 45%;
+    margin: 1%;
+    line-height: 60%;
+    float: left;
+    color: #2f3640;
+    font-size: x-large;
+}
+
+.full-image{
+    width: 100%;
+}
+
+.image-size{
+    width: 500px;
+    height: 400px;
+}
+
+.rounding{
+    border-radius: 30%;
+}
+
+.cat-texts{
+    color: cornsilk;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+/* Social Media CSS  */
+.social-media ul{
+    list-style: none;
+}
+.social-media ul li{
+    display: inline;
+    padding: 2%;
+    font-family: monospace;
+    color: cornsilk;
+}
+
+/* Footer CSS */
+.rights{
+    padding: 0 0 0 0;
+    
+}
+
+
+
+.mantra{
+    position: absolute;
+    left: 30px;
+    top: 330px;
+}
+.mantradecor{
+    font-family: cursive;
+    font-size: 30px;
+    color: coral;
+}
+h3{
+    color: darkgray;
+}
+.login-page{
+    position: absolute;
+    right: 300px;
+    top: 400px;
+    width: 120px;
+    padding: 10px 30px;
+    font-size: 30px;
+
+}
+
+.register-page{
+    position: absolute;
+    right: 100px;
+    top: 400px;
+    width: 120px;
+    padding: 10px 30px;
+    font-size: 30px;
+
+}
+.register-page a:link, a:visited {
+    background-color: #412506;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.login-page a:link, a:visited {
+background-color: #412506;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+

@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(-45deg, #1b1918, #572e12, #938ebd, #2e5da3);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.form-order{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    margin: 2% auto;
+    background: #804f3b;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+
+.input{
+    position: absolute;
+    top: 230 px;
+    left: 100px;
+    width: 280px;
+    transition: .5s;
+}
+.order-btn{
+    width: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color:rgb(151, 149, 140);
+    border-radius: 50%;
+    position: relative;
+}
+
+.heading{
+
+    font-size: large;
+    position: absolute;
+    top: 250px;
+    left: -30px;
+    transform: rotate(290deg);
+}

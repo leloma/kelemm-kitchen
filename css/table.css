@@ -1,0 +1,77 @@
+body{
+    background-image: url(../images/reg-and-login-bg1.jpg);
+
+}
+
+
+
+table{
+    text-align: left;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    color: cornsilk;
+    margin-left: 10%;
+    background-color: black;
+
+}
+
+table th{
+    font-size: large;
+    padding: 3%;
+    padding-left: 0%;
+    text-align: left;
+    border: 5px solid rgb(56, 36, 36);
+    color: rgb(247, 219, 164);
+    font-size: 25px;
+}
+table tr td{
+    border: 3px solid rgb(56, 36, 36);
+    padding: 2%;
+    color: rgba(248, 245, 245, 0.966);
+    font-size: 15px;
+}
+
+th, td{
+    padding: 2px;
+}
+
+
+.edit-btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del-btn {
+    text-decoration: none;
+    /* padding: 2px 5px; */
+    color: white;
+    border-radius: 3px;
+    background: #df0e0e;
+}
+
+h1{
+    text-align: right;
+    margin: 0%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: monospace;
+    color: rgb(245, 184, 99);
+    font-size: 30px;
+}
+
+h2{
+    padding: 2%;
+    margin: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15%;
+    font-family: monospace;
+    color: rgb(245, 184, 99);
+    font-size: 25px;
+    text-decoration: underline;
+
+}
